@@ -17,6 +17,8 @@ class StandalonePluginTutorial extends Component
 
     protected string $view = 'standalone-plugin-tutorial::heading';
 
+    protected Color $color;
+
     final public function __construct(string | int $level)
     {
         $this->level($level);
