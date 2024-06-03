@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Tsetis\StandalonePluginTutorial;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class StandalonePluginTutorialPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'standalone-plugin-tutorial';
     }
 
     public function register(Panel $panel): void

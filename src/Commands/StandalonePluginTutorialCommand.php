@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Tsetis\StandalonePluginTutorial\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class StandalonePluginTutorialCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'standalone-plugin-tutorial';
 
     public $description = 'My command';
 
